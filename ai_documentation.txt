@@ -1,0 +1,1 @@
+Asked "Give me an example test of how to test a sin wave function" to GPT. Was able to get a decent idea of how to construct a framework test.
