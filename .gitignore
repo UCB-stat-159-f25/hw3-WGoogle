@@ -1,3 +1,5 @@
 /*.png
 /*.wav
 /*.csv
+
+.ipynb_checkpoints/
