@@ -1,0 +1,17 @@
+repository: https://github.com/UCB-stat-159-f25/hw3-WGoogle
+version: 1
+
+project:
+  id: c4cecd9f-6823-48f5-b9ea-3c2468fa6324
+  toc:
+    - file: README.md
+    - file: LOSC_Event_tutorial.ipynb
+
+site:
+  title: HW3 - Stat 159
+  repository: https://github.com/UCB-stat-159-f25/hw3-WGoogle
+  authors: 
+    - Brian Hwang
+  actions: 
+    - title: Launch Binder
+      url: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-WGoogle/main
