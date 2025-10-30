@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 70" , "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+authors = [
+  { name= "Ligo Scientific Collaboration (LSC) and Brian Hwang"},
+]
+description = "A package made to explore LIGO data"
+readme = "README.md"
+
+requires-python = ">=3.9"
+dependencies = ["numpy>=2.0", "scipy>=1.13", "h5py>=3.12", "matplotlib>=3.9", "ipykernel>=6.29"]
+
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/WGoogle/hw3-WGoogle"
+Issues = "https://github.com/WGoogle/hw3-WGoogle/issues"
+
+[tool.setuptools]
+packages = ["ligotools"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ligotools.__version__"}
